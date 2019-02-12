@@ -1,4 +1,4 @@
-var cart = [];
+
 
 function getCart() {
  return cart;
@@ -9,13 +9,65 @@ function setCart(c) {
   return cart;
 }
 
+
+
+
+
+
+
+
+
+
+var cart = [];
+
+
 function addToCart(item) {
- // write your code here
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function viewCart() {
-  // write your code here
+  if(cart.length === 0){
+    console.log("Your shopping cart is empty.")
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function total() {
   // write your code here
@@ -28,3 +80,9 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+
+
+
+
+
